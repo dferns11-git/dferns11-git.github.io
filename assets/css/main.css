@@ -3234,3 +3234,43 @@ input, select, textarea {
 	  }
 	
 	.button4 {border-radius: 12px;}
+
+	
+    /* Section heading styling */
+    #certifications h2 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    #certifications h2 i {
+        margin-right: 10px;
+    }
+
+    .labeled-icons.two-column {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none; /* Removes default list styling */
+        padding: 0;
+        margin: 0;
+    }
+
+    .labeled-icons.two-column li {
+        flex: 1 1 45%; /* Takes 45% of the width for each column, adjust as needed */
+        margin: 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    .labeled-icons.two-column a {
+        text-decoration: none;
+        color: inherit;
+        display: flex;
+        align-items: center;
+    }
+
+    .labeled-icons.two-column i {
+        margin-right: 8px; /* Spacing between icon and text */
+    }
+
