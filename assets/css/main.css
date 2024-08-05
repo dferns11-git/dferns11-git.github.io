@@ -3274,3 +3274,22 @@ input, select, textarea {
         margin-right: 8px; /* Spacing between icon and text */
     }
 
+	.certification-container {
+		display: flex;
+		justify-content: space-between; /* Space out the columns */
+		gap: 20px; /* Optional: Add space between the columns */
+	}
+	
+	.certifications {
+		flex: 1; /* Allow each section to take equal space */
+	}
+	
+	h3 {
+		margin-bottom: 10px; /* Space below headings */
+	}
+	
+	ul {
+		list-style-type: none; /* Remove bullet points */
+		padding: 0; /* Remove default padding */
+	}
+	
